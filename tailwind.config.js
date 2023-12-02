@@ -18,6 +18,10 @@ module.exports = {
 			},
 			colors: {
 				"klasha-red": "#EF2C5A",
+				"klasha-soft-red": "#FF4772",
+				"klasha-black": "#0A0A0A",
+				"klasha-grey": "#8D8D8D",
+				"klasha-border": "#F0F0F0",
 			},
 		},
 	},

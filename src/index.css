@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+	background-color: #FFFFFF;
   margin: 0;
   font-family: 'InterRegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -69,16 +70,16 @@ Font Weight	Numerical Weight
 	}
 }
 
-.App-logo {
+.loading {
 	height: 40vmin;
 	pointer-events: none;
 }
 @media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
+	.loading {
+		animation: loading-spin infinite 1s linear;
 	}
 }
-@keyframes App-logo-spin {
+@keyframes loading-spin {
 	from {
 		transform: rotate(0deg);
 	}
@@ -86,4 +87,3 @@ Font Weight	Numerical Weight
 		transform: rotate(360deg);
 	}
 }
-

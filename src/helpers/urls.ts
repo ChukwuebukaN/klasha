@@ -3,7 +3,9 @@ const AuthRoutes = {
 };
 
 const NonAuthRoutes = {
-	dashboard: "/",
+	homePage: "/",
+	dashboard: "/dashboard",
+	transactions: "/transactions",
 };
 
 export { AuthRoutes, NonAuthRoutes };
