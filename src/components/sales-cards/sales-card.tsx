@@ -17,11 +17,20 @@ function SalesCard() {
 				pointBorderColor={{ from: "serieColor", modifiers: [] }}
 				pointLabelYOffset={-12}
 				areaBaselineValue={300}
+				// enableSlices={false}
 				enableSlices="x"
-				crosshairType="top"
+				crosshairType="bottom"
 				useMesh={true}
 				legends={[]}
-				// xScale={{ type: "point" }}
+				theme={{
+					crosshair: {
+						line: {
+							stroke: "#0A0A0A",
+							strokeWidth: 3,
+							strokeDasharray: 0,
+						},
+					},
+				}}
 				yScale={{
 					type: "linear",
 					min: 600,
@@ -35,7 +44,6 @@ function SalesCard() {
 					tickSize: 0,
 					tickPadding: 25,
 					tickRotation: 0,
-					// legend: "transportation",
 					legendOffset: 36,
 					legendPosition: "middle",
 				}}
@@ -43,7 +51,6 @@ function SalesCard() {
 					tickSize: 0,
 					tickPadding: 20,
 					tickRotation: 0,
-					// legend: "count",
 					legendOffset: -40,
 					legendPosition: "middle",
 				}}

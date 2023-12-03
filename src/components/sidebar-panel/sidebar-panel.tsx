@@ -182,7 +182,7 @@ function SidebarPanel({
 			<div>
 				<div className="h-screen w-[280px] fixed  bg-[#FFFBF7] pl-[47px] pt-[30px]">
 					<KlashaLogo className="cursor-pointer" />
-					<p className="text-base text-klasha-grey font-GeneralSansMedium mt-[50px] mb-4 ">
+					<p className="text-base text-klasha-grey font-GeneralSansMedium mt-[20px] md:mt-[50px] lg:mt-[50px]  mb-4 ">
 						Main pages
 					</p>
 					{MainPagesRoutes.map((mappedRoutes, index) => {

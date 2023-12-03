@@ -134,7 +134,7 @@ function Transactions({ setShowMobileMenu }) {
 		return (
 			<div>
 				<Header setShowMobileMenu={setShowMobileMenu} />
-				<div className="px-[32px] pb-5 mt-[100px]">
+				<div className="px-[20px] pb-5 mt-[20px]">
 					<div className="bg-white border border-klasha-border rounded-lg">
 						<div className="py-4 px-4 h-[62px] font-GeneralSansMedium text-base">
 							Transaction history
