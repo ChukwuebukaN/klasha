@@ -3,11 +3,13 @@
 import React, { useEffect } from "react";
 import Buttons from "../../components/buttons/buttons";
 import Header from "../../components/header/header";
-import { SalesOverviewData } from "../../components/sales-overview/sales-overview-data";
+import { SalesOverviewData } from "../../components/sales-cards/sales-data";
 import { useWindowResize } from "../../helpers/useWindowResize";
 import { ReactComponent as ArrowLeftIcon } from "../../assets/svg/sidebar-panel/arrow-left-icon.svg";
 import { ReactComponent as ArrowDownIcon } from "../../assets/svg/dashboard/arrow-down-icon.svg";
 import { ReactComponent as KlashaWireLines } from "../../assets/svg/dashboard/klasha-wire-lines.svg";
+import SalesOverviewCard from "../../components/sales-cards/sales-overview-card";
+import SalesCard from "../../components/sales-cards/sales-card";
 
 function Dashboard({ setShowMobileMenu }) {
 	const { width } = useWindowResize();
@@ -42,9 +44,11 @@ function Dashboard({ setShowMobileMenu }) {
 						{SalesOverviewData.map((fetchedSalesData, index) => (
 							<div
 								key={index}
-								className="w-[256px] h-[240px] p-6 rounded-lg border border-black"
+								className={` ${"w-[256px] h-[240px] overflow-hidden p-6 rounded-lg border border-black"} ${
+									index === 1 ? "bg-black text-white" : ""
+								} `}
 							>
-								<div className="mb-[114px]">
+								<div className="mb-[26px]">
 									<p className="font-InterRegular text-sm ">
 										{fetchedSalesData.date}
 									</p>
@@ -52,7 +56,8 @@ function Dashboard({ setShowMobileMenu }) {
 										{fetchedSalesData.todaysAmount}
 									</p>
 								</div>
-								<div>
+								{fetchedSalesData.periodAmount && <SalesOverviewCard />}
+								<div className="mt-[19px]">
 									<p className="font-InterRegular text-sm ">
 										{fetchedSalesData.period}
 									</p>
@@ -67,7 +72,7 @@ function Dashboard({ setShowMobileMenu }) {
 
 				<div className="px-[32px] my-[32px]">
 					<div className="grid gap-x-6 grid-cols-1 md:grid-cols-5 lg:grid-cols-6 ">
-						<div className="flex items-center justify-between mb-[2px] col-span-1 md:col-span-2 lg:col-span-4 w-full">
+						<div className="flex items-center justify-between mb-[5px] col-span-1 md:col-span-2 lg:col-span-4 w-full">
 							<p className="font-GeneralSansMedium text-base mr-[10px]">
 								Sales
 							</p>
@@ -100,35 +105,17 @@ function Dashboard({ setShowMobileMenu }) {
 								buttonStyling="w-[148px] h-[40px] ml-[10px] flex items-center justify-center bg-white rounded-[8px] border border-klasha-black"
 							/>
 						</div>
-						<div className="col-span-1 md:col-span-2 lg:col-span-4 h-[284px] p-6  rounded-lg border border-black">
-							<div className="mb-[114px]">
-								<p className="font-InterRegular text-sm ">
-									{/* {fetchedSalesData.date} */}
-								</p>
-								<p className="font-GeneralSansMedium text-xl ">
-									{/* {fetchedSalesData.todaysAmount} */}
-								</p>
-							</div>
-							<div>
-								<p className="font-InterRegular text-sm ">
-									{/* {fetchedSalesData.period} */}
-								</p>
-								<p className="font-GeneralSansMedium text-xl ">
-									{/* {fetchedSalesData.periodAmount} */}
-								</p>
-							</div>
+						<div className="col-span-1 md:col-span-2 lg:col-span-4 h-[284px] rounded-lg border border-black overflow-hidden">
+							<SalesCard />
 						</div>
-						<div className=" col-span-1 md:col-span-2 lg:col-span-2 h-[284px] p-6 rounded-lg bg-klasha-red">
-							<div className="mb-[92px]">
-								<p className="font-GeneralSansMedium text-xl text-white w-[200px] h-[96px]">
-									{/* {fetchedSalesData.date} */}
-									KlashaWire - send money to businesses globally from Africa
-								</p>
-								<p className="font-GeneralSansMedium text-xl ">
-									{/* {fetchedSalesData.todaysAmount} */}
-								</p>
-							</div>
-							<div>
+						<div className="col-span-1 md:col-span-2 lg:col-span-2 h-[284px] p-6 rounded-lg bg-klasha-red overflow-hidden">
+							<KlashaWireLines className="absolute" />
+							<div className="absolute">
+								<div className="mb-[92px]">
+									<p className="font-GeneralSansMedium text-xl text-white w-[200px] h-[96px]">
+										KlashaWire - send money to businesses globally from Africa
+									</p>
+								</div>
 								<Buttons
 									title="Send a Wire"
 									text="Send a Wire"
@@ -136,7 +123,6 @@ function Dashboard({ setShowMobileMenu }) {
 									buttonStyling="w-[130px] h-[48px] flex items-center justify-center rounded-[8px] bg-klasha-black"
 								/>
 							</div>
-							<KlashaWireLines className=" -z-10" />
 						</div>
 					</div>
 				</div>
