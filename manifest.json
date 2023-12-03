@@ -1,0 +1,23 @@
+{
+	"theme_color": "#EF2C5A",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": ".",
+	"name": "Klasha Payments",
+	"short_name": "Klasha Payments",
+	"description": "Klasha Payments | Cross-border payments for businesses",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "/icons/klasha-icon.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	]
+}
