@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/klasha-payments/static/css/main.95466926.css",
-    "main.js": "/klasha-payments/static/js/main.d06f7218.js",
-    "static/js/849.fe355bc7.chunk.js": "/klasha-payments/static/js/849.fe355bc7.chunk.js",
-    "static/js/137.a83dc92d.chunk.js": "/klasha-payments/static/js/137.a83dc92d.chunk.js",
-    "static/js/305.9ff1ad72.chunk.js": "/klasha-payments/static/js/305.9ff1ad72.chunk.js",
+    "main.css": "/klasha-payments/static/css/main.25249e13.css",
+    "main.js": "/klasha-payments/static/js/main.ad00a2f6.js",
+    "static/js/849.dc6f98a7.chunk.js": "/klasha-payments/static/js/849.dc6f98a7.chunk.js",
+    "static/js/552.0b56b041.chunk.js": "/klasha-payments/static/js/552.0b56b041.chunk.js",
+    "static/js/305.8f6eb516.chunk.js": "/klasha-payments/static/js/305.8f6eb516.chunk.js",
     "static/js/787.878dd73b.chunk.js": "/klasha-payments/static/js/787.878dd73b.chunk.js",
     "static/js/308.5f04c5f8.chunk.js": "/klasha-payments/static/js/308.5f04c5f8.chunk.js",
     "static/media/Inter-SemiBold.ttf": "/klasha-payments/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
@@ -36,16 +36,16 @@
     "static/media/arrow-down-icon.svg": "/klasha-payments/static/media/arrow-down-icon.a0aae945afe0c1b1dddea4317fba9264.svg",
     "static/media/arrow-left-icon.svg": "/klasha-payments/static/media/arrow-left-icon.4ac24dac692652a35ba50b2e2cc78495.svg",
     "static/media/arrow-grey-icon.svg": "/klasha-payments/static/media/arrow-grey-icon.6b6ac40e79f4706723d0bb860ccca7c9.svg",
-    "main.95466926.css.map": "/klasha-payments/static/css/main.95466926.css.map",
-    "main.d06f7218.js.map": "/klasha-payments/static/js/main.d06f7218.js.map",
-    "849.fe355bc7.chunk.js.map": "/klasha-payments/static/js/849.fe355bc7.chunk.js.map",
-    "137.a83dc92d.chunk.js.map": "/klasha-payments/static/js/137.a83dc92d.chunk.js.map",
-    "305.9ff1ad72.chunk.js.map": "/klasha-payments/static/js/305.9ff1ad72.chunk.js.map",
+    "main.25249e13.css.map": "/klasha-payments/static/css/main.25249e13.css.map",
+    "main.ad00a2f6.js.map": "/klasha-payments/static/js/main.ad00a2f6.js.map",
+    "849.dc6f98a7.chunk.js.map": "/klasha-payments/static/js/849.dc6f98a7.chunk.js.map",
+    "552.0b56b041.chunk.js.map": "/klasha-payments/static/js/552.0b56b041.chunk.js.map",
+    "305.8f6eb516.chunk.js.map": "/klasha-payments/static/js/305.8f6eb516.chunk.js.map",
     "787.878dd73b.chunk.js.map": "/klasha-payments/static/js/787.878dd73b.chunk.js.map",
     "308.5f04c5f8.chunk.js.map": "/klasha-payments/static/js/308.5f04c5f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95466926.css",
-    "static/js/main.d06f7218.js"
+    "static/css/main.25249e13.css",
+    "static/js/main.ad00a2f6.js"
   ]
 }
