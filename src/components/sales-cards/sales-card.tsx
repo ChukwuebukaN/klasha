@@ -26,7 +26,7 @@ function SalesCard() {
 					crosshair: {
 						line: {
 							stroke: "#0A0A0A",
-							strokeWidth: 3,
+							strokeWidth: 2,
 							strokeDasharray: 0,
 						},
 					},
