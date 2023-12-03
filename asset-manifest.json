@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/klasha-payments/static/css/main.25249e13.css",
-    "main.js": "/klasha-payments/static/js/main.3e1860fa.js",
-    "static/js/849.3f95bc8e.chunk.js": "/klasha-payments/static/js/849.3f95bc8e.chunk.js",
-    "static/js/552.4c477930.chunk.js": "/klasha-payments/static/js/552.4c477930.chunk.js",
+    "main.css": "/klasha-payments/static/css/main.aa6c9ff8.css",
+    "main.js": "/klasha-payments/static/js/main.009be3af.js",
+    "static/js/849.cbd0c21d.chunk.js": "/klasha-payments/static/js/849.cbd0c21d.chunk.js",
+    "static/js/552.6965a23d.chunk.js": "/klasha-payments/static/js/552.6965a23d.chunk.js",
     "static/js/305.8f6eb516.chunk.js": "/klasha-payments/static/js/305.8f6eb516.chunk.js",
     "static/js/787.878dd73b.chunk.js": "/klasha-payments/static/js/787.878dd73b.chunk.js",
     "static/js/308.5f04c5f8.chunk.js": "/klasha-payments/static/js/308.5f04c5f8.chunk.js",
@@ -36,16 +36,16 @@
     "static/media/arrow-down-icon.svg": "/klasha-payments/static/media/arrow-down-icon.a0aae945afe0c1b1dddea4317fba9264.svg",
     "static/media/arrow-left-icon.svg": "/klasha-payments/static/media/arrow-left-icon.4ac24dac692652a35ba50b2e2cc78495.svg",
     "static/media/arrow-grey-icon.svg": "/klasha-payments/static/media/arrow-grey-icon.6b6ac40e79f4706723d0bb860ccca7c9.svg",
-    "main.25249e13.css.map": "/klasha-payments/static/css/main.25249e13.css.map",
-    "main.3e1860fa.js.map": "/klasha-payments/static/js/main.3e1860fa.js.map",
-    "849.3f95bc8e.chunk.js.map": "/klasha-payments/static/js/849.3f95bc8e.chunk.js.map",
-    "552.4c477930.chunk.js.map": "/klasha-payments/static/js/552.4c477930.chunk.js.map",
+    "main.aa6c9ff8.css.map": "/klasha-payments/static/css/main.aa6c9ff8.css.map",
+    "main.009be3af.js.map": "/klasha-payments/static/js/main.009be3af.js.map",
+    "849.cbd0c21d.chunk.js.map": "/klasha-payments/static/js/849.cbd0c21d.chunk.js.map",
+    "552.6965a23d.chunk.js.map": "/klasha-payments/static/js/552.6965a23d.chunk.js.map",
     "305.8f6eb516.chunk.js.map": "/klasha-payments/static/js/305.8f6eb516.chunk.js.map",
     "787.878dd73b.chunk.js.map": "/klasha-payments/static/js/787.878dd73b.chunk.js.map",
     "308.5f04c5f8.chunk.js.map": "/klasha-payments/static/js/308.5f04c5f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25249e13.css",
-    "static/js/main.3e1860fa.js"
+    "static/css/main.aa6c9ff8.css",
+    "static/js/main.009be3af.js"
   ]
 }
