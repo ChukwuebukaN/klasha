@@ -125,8 +125,8 @@ function Dashboard({ setShowMobileMenu }) {
 					</div>
 					<div
 						className={` ${"col-span-2 h-[284px] p-6 rounded-lg bg-klasha-red overflow-hidden"} ${
-							width < 1400 && "mt-6 col-span-1"
-						}`}
+							width < 1400 && "mt-6 w-full "
+						} ${width < 500 && "col-span-4"}`}
 					>
 						<KlashaWireLines className="absolute" />
 						<div className="absolute">
