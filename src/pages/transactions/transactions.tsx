@@ -172,13 +172,9 @@ function Transactions({ setShowMobileMenu }) {
 							</div>
 						</div>
 
-						<div className="block lg:hidden rounded-full">
-							<>
-								<TransactionCards />
-								<div className="py-4 px-4 h-[62px] border-t border-klasha-border flex items-center justify-end">
-									<Paginate />
-								</div>
-							</>
+						<TransactionCards />
+						<div className="py-4 px-4 h-[62px] border-t border-klasha-border flex items-center justify-end">
+							<Paginate />
 						</div>
 					</div>
 				</div>

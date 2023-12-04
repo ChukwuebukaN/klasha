@@ -13,7 +13,7 @@ function TransactionCards() {
 				{transactionsData.map((fetchedTransactions, index) => {
 					return (
 						<>
-							{width > 1024 ? (
+							{width > 1060 ? (
 								<tbody
 									key={index}
 									className="h-[96px] hover:bg-[#F7F7F7] border-t border-klasha-border cursor-pointer"
